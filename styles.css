@@ -913,7 +913,7 @@ section.projects-section {
 .project-content span {
     display: block;
     margin-bottom: 12px;
-    color: black;
+    color: rgb(28, 118, 160);
 }
 
 .project-links {
