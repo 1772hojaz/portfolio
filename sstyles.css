@@ -1318,7 +1318,7 @@ section{
 }
 
 span{
-    color: var(--main-color);
+    color: blue;
 }
 
 .home-content h1 {

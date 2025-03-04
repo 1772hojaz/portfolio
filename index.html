@@ -54,7 +54,7 @@
                             <!-- <li class="nav-item">
                                 <a href="#me" class="nav-link"><h2>Me</h2></a> -->
                             <li class="nav-item"> 
-                                <a href="#projects" class="nav-link"><h2>Projects</h2></a>
+                                <a href="#projects-section" class="nav-link"><h2>Projects</h2></a>
                             </li>
                             
                             <!-- <li class="nav-item">
@@ -352,86 +352,25 @@ To bring this vision to life, I recognised the importance of a solid foundation
 
             <!-- END OF COURSES -->
             
-
-
-
-
-            <section id="projects">
-
-                <h2 class="heading">Latest <span>Projects</span></h2>
-                <div class="p-c">
-            
-                    <!-- Web DevOps Projects -->
-                    <div class="p-b">
-                        <div class="white">
-                            <img src="html5-512.webp" alt="HTML5 logo representing a Web Design Project">
-                        </div>
-                        <div class="p-l">
-                            <h4>Web DevOps</h4>
-                            <p class="s-t">Click the button to see the projects.</p>
-                            <div class="p-d" id="portfolio-web-devops">
-                                <ul>
-                                    <li><button class="btn" onclick="window.location.href='https://github.com/1772hojaz/alu-back-end'">APIs</button></li>
-                                    <li><button class="btn" onclick="window.location.href='https://github.com/maxprodigy/ALU_HTML-CSS-Contest_Group-11'">Nevents - Alumni Connect</button></li>
-                                    <li><button class="btn" onclick="window.location.href='https://github.com/1772hojaz/alu-web_front_end'">Front End Development</button></li>
-                                    <li><button class="btn" onclick="window.location.href='https://github.com/1772hojaz/alu-web-development'">Web Development</button></li>
-                                    <li><button class="btn" onclick="window.location.href='https://github.com/1772hojaz/alu-webstack'">Webstack</button></li>
-                                    <li><button class="btn" onclick="window.location.href='https://github.com/1772hojaz/alu-system_engineering-devops'">System Engineering</button></li>
-                                    <li><button class="btn" onclick="window.location.href='https://github.com/1772hojaz/alu-AirBnB_clone'">AirBnB Clone</button></li>
-                                </ul>
-                            </div>
-                            <button class="b t-b" data-target="portfolio-web-devops">Read more</button>
-                        </div>
-                    </div>
-            
-                    <!-- Low-Level Programming Projects -->
-                    <div class="p-b">
-                        <div class="white">
-                            <img src="C_Logo.png" alt="C programming language logo representing Low-Level Programming projects">
-                        </div>
-                        <div class="p-l">
-                            <h4>Low-Level Programming</h4>
-                            <p class="s-t">Click the button to see the projects.</p>
-                            <div class="p-d" id="portfolio-low-level">
-                                <ul>
-                                    <li><button class="btn" onclick="window.location.href='https://github.com/1772hojaz/alu-shell'">Shell</button></li>
-                                    <li><button class="btn" onclick="window.location.href='https://github.com/1772hojaz/c-programming_practice'">Introduction to C</button></li>
-                                    <li><button class="btn" onclick="window.location.href='https://github.com/1772hojaz/alx-low_level_programming'">Advanced C</button></li>
-                                </ul>
-                            </div>
-                            <button class="b t-b" data-target="portfolio-low-level">Read more</button>
-                        </div>
-                    </div>
-            
-                    <!-- Higher-Level Programming Projects -->
-                    <div class="p-b">
-                        <div class="white">
-                            <img src="Python-Logo-PNG-Image.png" alt="Python logo representing Higher Level Programming projects">
-                        </div>
-                        <div class="p-l">
-                            <h4>Higher Level Programming</h4>
-                            <p class="s-t">Click the button to see the projects.</p>
-                            <div class="p-d" id="portfolio-higher-level">
-                                <ul>
-                                    <li><button class="btn" onclick="window.location.href='https://github.com/1772hojaz/alu-higher_level_programming'">Higher Level Programming</button></li>
-                                    <li><button class="btn" onclick="window.location.href='https://github.com/1772hojaz/alx-higher_level_programming'">Python Programming</button></li>
-                                    <li><button class="btn" onclick="window.location.href='https://github.com/1772hojaz/alu_regex-data-extraction-group7'">Data Extraction Using Regex and JavaScript</button></li>
-                                </ul>
-                            </div>
-                            <button class="b t-b" data-target="portfolio-higher-level">Read more</button>
-                        </div>
-                    </div>
-            
-                </div>
-            
-            </section>
-
-
-            <!-- MOre Projects -->
-
-            <section class="projects-section">
-                <h2>Projects</h2>
+            <section class="projects-section" id="projects-section">
+                <h2 id="">Projects</h2>
                 <div class="projects-grid">
+                    <!-- Project Card -->
+                    <div class="project-card">
+                        <img src="regression.png" alt="Project 1 Image">
+                        <div class="project-content">
+                            <h3>Sales Prediction mobile application</h3>
+                            <p>This android aplication uses a Regression Model to predict sales of shop products depending on the shop's location information and the type of the product.
+                            </p>
+                            <span>Tech Stack: Flutter, Dart, Python</span>
+                            <div class="project-links">
+                                <a href="https://github.com/1772hojaz/Final_Alu_regression_model" target="_blank">GitHub</a>
+                                <a href="https://www.youtube.com/watch?v=rcxsdtxKjvc" target="_blank">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+
                     <!-- Project Card -->
                     <div class="project-card">
                         <img src="Nevents.png" alt="Project 1 Image">
@@ -446,6 +385,19 @@ To bring this vision to life, I recognised the importance of a solid foundation
                         </div>
                     </div>
                     <!-- Repeat for other projects -->
+
+                    <div class="project-card">
+                        <img src="Nevents.png" alt="Project 1 Image">
+                        <div class="project-content">
+                            <h3>Nevents</h3>
+                            <p>Nevents is a web application designed to connect alumni with exciting events and opportunities within the African Leadership University (ALU) community.</p>
+                            <span>Tech Stack: HTML, CSS, JavaScript</span>
+                            <div class="project-links">
+                                <a href="https://github.com/1772hojaz/kepler_Safety" target="_blank">GitHub</a>
+                                <a href="" target="_blank">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="project-card">
                         <img src="Healthpass.png" alt="Project 2 Image">
                         <div class="project-content">
@@ -468,6 +420,35 @@ To bring this vision to life, I recognised the importance of a solid foundation
                             <span>Tech Stack: Python, Shell</span>
                             <div class="project-links">
                                 <a href="https://github.com/Skaveza/Negpod10_Education-Jobcreation-Urbanization_PLD3_SRS" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="customised.png" alt="Project 5 Image">
+                        <div class="project-content">
+                            <h3>Customised Shell Commands</h3>
+                            <p>This repository contains fuctions that automate tasks like pushing to github by just using the   c    command.</p>
+                            <span>Tech Stack: Shell</span>
+                            <div class="project-links">
+                                <a href="https://github.com/1772hojaz/customised-commands_for_linux-_enviroments" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="shareplate.jpg" alt="Project 1 Image">
+                        <div class="project-content">
+                            <h3>Share Plate Rwanda</h3>
+                            <p>This is a platform aimed at addressing food wastage and 
+                                hunger by fostering a culture of sharing excess food with those 
+                                in need. Built as a mobile application using Flutter and GetX, 
+                                its primary goal is to connect people with surplus food (such as individuals, households, restaurants, or grocery stores) with charities, shelters, or individuals who can use it
+                            </p>
+                            <span>Tech Stack: Flutter, GetX, Dart, Fire Base, cloudinary</span>
+                            <div class="project-links">
+                                <a href="https://github.com/1772hojaz/share_plate" target="_blank">GitHub</a>
+                                <a href="https://www.youtube.com/watch?v=GMSfpazzKlE" target="_blank">Live Demo</a>
                             </div>
                         </div>
                     </div>
