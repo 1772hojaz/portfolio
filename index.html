@@ -1,770 +1,269 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Humphrey Nyahoja - Software Engineer & Tech Enthusiast. Explore my portfolio featuring innovative projects and a passion for solving real-world problems through technology.">
-    <meta name="author" content="Humphrey Nyahoja">
-    <meta name="keywords" content="Humphrey Nyahoja, software engineer, developer, portfolio, web development, Python, Flutter">
-    <meta name="robots" content="index, follow">
-    <meta name="google-site-verification" content="5V4CvI9bPpAWeeLshzmK58uTfRDySJwnTp2UJykPtbw" />
-    
-    <title>Humphrey Nyahoja | Software Engineer</title>
-    
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/jpeg" href="./desktop-wallpaper-pin-page-dark-profile-thumbnail.jpg">
-    <link rel="apple-touch-icon" href="./desktop-wallpaper-pin-page-dark-profile-thumbnail.jpg">
-    
-    <!-- Styles -->
-    <link rel="stylesheet" href="styles.css">
-    
-    <!-- Structured Data -->
-    <script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "Person",
-        "name": "Humphrey Nyahoja",
-        "url": "https://humphreynyahoja.me",
-        "sameAs": [
-            "https://www.linkedin.com/in/humphrey-nyahoja-ab9a5a1b5/",
-            "https://twitter.com/H_Nyahoja_",
-            "https://github.com/1772hojaz"
-        ],
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "email": "humphrey.nyahoja@gmail.com",
-            "contactType": "Contact Me"
-        }
-    }
-    </script>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Humphrey Nyahoja | Software Engineer</title>
+ <meta name="description" content="Humphrey Nyahoja's software engineering portfolio. Explore personal projects in AI, web applications, mobile development, and systems programming.">
+ <meta name="author" content="Humphrey Nyahoja"><meta name="theme-color" content="#101513">
+ <meta name="google-site-verification" content="5V4CvI9bPpAWeeLshzmK58uTfRDySJwnTp2UJykPtbw">
+ <link rel="canonical" href="https://humphreynyahoja.me/">
+ <meta property="og:type" content="website"><meta property="og:title" content="Humphrey Nyahoja | Software Engineer">
+ <meta property="og:description" content="Practical software. Purposeful ideas. Explore my latest personal projects.">
+ <meta property="og:url" content="https://humphreynyahoja.me/"><meta property="og:image" content="https://humphreynyahoja.me/photo_5956227317602828935_y.jpg">
+ <link rel="icon" href="desktop-wallpaper-pin-page-dark-profile-thumbnail.jpg"><link rel="stylesheet" href="styles.css">
+ <script src="index.js" defer></script>
+ <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Humphrey Nyahoja","url":"https://humphreynyahoja.me","sameAs":["https://github.com/1772hojaz","https://www.linkedin.com/in/humphrey-nyahoja-ab9a5a1b5/"]}</script>
 </head>
 <body>
-    <!-- Cursor Glow Effect -->
-    <div class="cursor-glow"></div>
-    
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <a href="#home" class="nav-logo">
-                <span class="logo-text">HN</span>
-                <span class="logo-dot"></span>
-            </a>
-            
-            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            
-            <ul class="nav-menu" id="nav-menu">
-                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
-                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                <li class="nav-item"><a href="#github" class="nav-link">GitHub</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+ <a class="skip-link" href="#main">Skip to content</a>
+ <header class="site-header">
+<div class="nav-wrap"><a class="brand" href="#me" aria-label="Humphrey Nyahoja home">hn<span>.</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" hidden>Menu</button>
+<nav id="navigation" aria-label="Main navigation"><a href="#projects-section">Work</a><a href="#about">About</a><a href="#courses">Learning</a><a class="nav-contact" href="#contact">Let’s talk</a></nav>
+</div></header>
 
-    <main>
-        <!-- Hero Section -->
-        <section class="hero" id="home">
-            <div class="hero-bg">
-                <div class="hero-gradient"></div>
-                <div class="hero-grid"></div>
-            </div>
-            
-            <div class="hero-content">
-                <div class="hero-text">
-                    <p class="hero-greeting">Hello, I'm</p>
-                    <h1 class="hero-name">Humphrey <span class="highlight">Nyahoja</span></h1>
-                    <div class="hero-title">
-                        <span class="title-prefix">A</span>
-                        <span class="typed-text" id="typed-text"></span>
-                        <span class="cursor-blink">|</span>
-                    </div>
-                    
-                    <div class="hero-actions">
-                        <a href="Humphrey_Nyahoja_Resume_.pdf" class="btn btn-primary" download>
-                            <i class="fas fa-download"></i>
-                            Download CV
-                        </a>
-                        <div class="social-links">
-                            <a href="https://www.linkedin.com/in/humphrey-nyahoja-ab9a5a1b5/" target="_blank" rel="noopener" aria-label="LinkedIn">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="https://github.com/1772hojaz" target="_blank" rel="noopener" aria-label="GitHub">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="https://twitter.com/H_Nyahoja_" target="_blank" rel="noopener" aria-label="Twitter">
-                                <i class="fab fa-x-twitter"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="hero-image">
-                    <div class="image-wrapper">
-                        <div class="image-border"></div>
-                        <img src="photo_5956227317602828935_y.jpg" alt="Humphrey Nyahoja">
-                        <div class="image-decoration"></div>
-                    </div>
-                </div>
-            </div>
+ <main id="main">
+ <section class="hero wrap" id="me">
+<div class="hero-copy">
+<p class="eyebrow">HUMPHREY NYAHOJA / SOFTWARE ENGINEER</p>
+<h1>Curiosity into code.<br>Ideas into <em>impact.</em></h1>
+<p class="hero-description">I build practical software for everyday challenges — from AI-assisted shopping to tools that connect communities.</p>
+<div class="hero-actions"><a class="button primary" href="#projects-section">Explore my work</a><a class="button secondary" href="Humphrey_Nyahoja_Resume_.pdf" download>Download CV</a></div>
+<div class="hero-social"><a href="https://github.com/1772hojaz" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/humphrey-nyahoja-ab9a5a1b5/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></div>
+<figure class="hero-portrait"><img src="photo_5956227317602828935_y.jpg" alt="Humphrey Nyahoja" width="560" height="680" fetchpriority="high"><figcaption><span>Software with purpose.</span><span>Always learning. Always building.</span></figcaption></figure>
+</section>
 
-            <a href="#about" class="scroll-indicator" aria-label="Scroll to about section">
-                <span class="scroll-text">Scroll</span>
-                <span class="scroll-line"></span>
-            </a>
-        </section>
+ <div class="specialties wrap" aria-label="Areas of work"><span>Web applications</span><span>AI &amp; automation</span><span>Mobile development</span><span>Systems &amp; tooling</span></div>
+ <section class="work wrap" id="projects-section">
+<div class="section-heading">
+<div>
+<p class="eyebrow">IDEAS IN PRACTICE</p>
+<h2>Things I’ve been building<span>.</span></h2></div>
+<p>Personal experiments, practical tools,<br>and projects built with others.</p></div>
+<div class="project-filters" role="group" aria-label="Filter projects" hidden><button type="button" data-filter="all" aria-pressed="true">All work</button><button type="button" data-filter="web" aria-pressed="false">Web &amp; AI</button><button type="button" data-filter="mobile" aria-pressed="false">Mobile</button><button type="button" data-filter="systems" aria-pressed="false">Systems</button></div>
+<p class="filter-status sr-only" aria-live="polite"></p>
+<h3 class="collection-title">Recent personal projects</h3>
+<div class="projects-grid">
+<article class="project-card recent-card" data-category="web">
+ <div class="project-image"><img src="assets/projects/answered.webp" alt="Illustration of study notes, books, and a laptop for Answered" loading="lazy" width="1536" height="1024"></div>
+ <div class="project-content">
+<div class="project-meta">Personal project<span>Updated Nov 2026</span></div>
+<h3>Answered</h3>
+<p>A student revision website bringing subjects, study notes, past papers, and search into one place. Includes a private dashboard for creating and managing learning resources.</p>
+<p class="stack">PHP, MySQL, JavaScript</p>
+<div class="project-links"><a href="https://answered.qzz.io/" target="_blank" rel="noopener noreferrer">Visit website</a><a href="https://github.com/1772hojaz/answered" target="_blank" rel="noopener noreferrer">View repository</a></div></div></article>
 
-        <!-- About Section -->
-        <section class="about" id="about">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-tag">Get to know me</span>
-                    <h2 class="section-title">About <span class="highlight">Me</span></h2>
-                </div>
-                
-                <div class="about-content">
-                    <div class="about-image">
-                        <div class="about-img-wrapper">
-                            <img src="photo_6034910774868164951_y.jpg" alt="Humphrey Nyahoja">
-                            <div class="experience-badge">
-                                <span class="exp-number">3+</span>
-                                <span class="exp-text">Years Learning</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="about-text">
-                        <h3 class="about-subtitle">My Mission</h3>
-                        <p class="about-description">
-                            Growing up on the outskirts of Bindura, a small mining town in Zimbabwe, I witnessed firsthand the adverse effects of mining-related illnesses caused by inadequate safety equipment. This experience ignited a passion in me to address this issue and became my life's mission to solve.
-                        </p>
-                        <p class="about-description" id="about-more" style="display: none;">
-                            My goal is to create a digital platform that enables informal sector workers to purchase affordable and reliable safety equipment through an AI-powered bulk buying system. This ambition led me towards software engineering—a field that holds the key to solving many challenges faced by my community and beyond.
-                            <br><br>
-                            My journey to becoming an aspiring software engineer is a testament to my resilience and determination to contribute positively to society. I am motivated by the challenges I have overcome and the impact I aim to make through technological solutions.
-                        </p>
-                        <button class="btn btn-secondary" id="about-toggle">
-                            <span>Read More</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </button>
-                        
-                        <div class="skills-preview">
-                            <div class="skill-tag"><i class="fab fa-python"></i> Python</div>
-                            <div class="skill-tag"><i class="fab fa-js"></i> JavaScript</div>
-                            <div class="skill-tag"><i class="fas fa-mobile-alt"></i> Flutter</div>
-                            <div class="skill-tag"><i class="fab fa-linux"></i> Linux</div>
-                            <div class="skill-tag"><i class="fab fa-html5"></i> HTML/CSS</div>
-                            <div class="skill-tag"><i class="fas fa-database"></i> SQL</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<article class="project-card recent-card" data-category="web">
+ <div class="project-image"><img src="assets/projects/agentic-shop.webp" alt="Illustration of a messaging phone, shopping bags, and parcels for Agentic Shop" loading="lazy" width="1536" height="1024"></div>
+ <div class="project-content">
+<div class="project-meta">Personal project<span>Updated Nov 2026</span></div>
+<h3>Agentic Shop</h3>
+<p>A WhatsApp shopping experience backed by a React administration dashboard. Connects product discovery, orders, inventory, and payment workflows through a permission-aware AI assistant.</p>
+<p class="stack">React, FastAPI, PostgreSQL, WhatsApp</p>
+<div class="project-links"><a href="https://github.com/1772hojaz/agentic_shop" target="_blank" rel="noopener noreferrer">View repository</a></div></div></article>
 
-        <!-- Education Section -->
-        <section class="education" id="education">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-tag">My Learning Journey</span>
-                    <h2 class="section-title">Education & <span class="highlight">Certifications</span></h2>
-                </div>
-                
-                <div class="education-grid">
-                    <!-- ALU -->
-                    <div class="edu-card featured">
-                        <div class="edu-icon">
-                            <img src="AluLogoForAdmissions.png" alt="African Leadership University">
-                        </div>
-                        <div class="edu-content">
-                            <h3>Bachelor of Science in Software Engineering</h3>
-                            <p class="edu-institution">African Leadership University</p>
-                            <div class="edu-courses" id="alu-courses">
-                                <ul>
-                                    <li>Introduction to Linux and IT tools</li>
-                                    <li>Introduction to Programming and Databases</li>
-                                    <li>Front-End Web Development</li>
-                                    <li>Web Infrastructure</li>
-                                    <li>Enterprise Web Development</li>
-                                    <li>Software Engineering Foundation Project</li>
-                                    <li>Self-Leadership and Team Dynamics</li>
-                                    <li>Learning Processes</li>
-                                    <li>Entrepreneurship</li>
-                                </ul>
-                            </div>
-                            <button class="edu-toggle" data-target="alu-courses">
-                                <span>View Courses</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                        </div>
-                    </div>
+<article class="project-card recent-card" data-category="web">
+ <div class="project-image"><img src="assets/projects/hexa-mono.webp" alt="Illustration of a holiday rental home for Hexa-mono" loading="lazy" width="1536" height="1024"></div>
+ <div class="project-content">
+<div class="project-meta">Personal project<span>Updated Sep 2026</span></div>
+<h3>Hexa-mono</h3>
+<p>An Airbnb clone project exploring a familiar accommodation platform through a personal web development build.</p>
+<p class="stack">Web application</p>
+<div class="project-links"><a href="https://github.com/1772hojaz/Hexa-mono" target="_blank" rel="noopener noreferrer">View repository</a></div></div></article>
 
-                    <!-- Queens University -->
-                    <div class="edu-card">
-                        <div class="edu-icon">
-                            <img src="QueensLogo_colour.png" alt="Queen's University">
-                        </div>
-                        <div class="edu-content">
-                            <h3>Jim Leech Mastercard Foundation Fellowship</h3>
-                            <p class="edu-institution">Queen's University</p>
-                            <div class="edu-courses" id="queens-courses">
-                                <ul>
-                                    <li><a href="https://credentials.innovationcentre.queensu.ca/7896f9c1-0083-486c-b735-7066519a60c0">Explore Entrepreneurship</a></li>
-                                    <li><a href="https://credentials.innovationcentre.queensu.ca/13bf43fc-30fa-4b62-b5dd-6c654688297c">Design Thinking</a></li>
-                                </ul>
-                            </div>
-                            <button class="edu-toggle" data-target="queens-courses">
-                                <span>View Courses</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                        </div>
-                    </div>
+<article class="project-card recent-card" data-category="web">
+ <div class="project-image"><img src="assets/projects/signalshift.webp" alt="Illustration of connected news stories and data trends for SignalShift" loading="lazy" width="1536" height="1024"></div>
+ <div class="project-content">
+<div class="project-meta">Personal project<span>Updated Aug 2026</span></div>
+<h3>SignalShift</h3>
+<p>A news intelligence MVP that compares current stories with a historical baseline to surface changes in attention and relevance, supported by evidence and explanations.</p>
+<p class="stack">Next.js, TypeScript, FastAPI, PostgreSQL</p>
+<div class="project-links"><a href="https://github.com/1772hojaz/signalshift" target="_blank" rel="noopener noreferrer">View repository</a></div></div></article>
+</div>
+<h3 class="collection-title">More selected work</h3>
+<div class="projects-grid">
+<article class="project-card " data-category="mobile">
+ <div class="project-image"><img src="regression.png" alt="Sales Prediction App project preview" loading="lazy" width="700" height="420"></div>
+ <div class="project-content">
+<div class="project-meta">Selected work</div>
+<h3>Sales Prediction App</h3>
+<p>This Android application uses a Regression Model to predict sales of shop products depending on the shop's location information and the type of the product.</p>
+<p class="stack">Flutter, Dart, Python</p>
+<div class="project-links"><a href="https://github.com/1772hojaz/Final_Alu_regression_model" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.youtube.com/watch?v=rcxsdtxKjvc" target="_blank" rel="noopener noreferrer">Watch demo</a></div></div></article>
 
-                    <!-- Stanford -->
-                    <div class="edu-card">
-                        <div class="edu-icon">
-                            <img src="Stanford-1.webp" alt="Stanford University">
-                        </div>
-                        <div class="edu-content">
-                            <h3>Code in Place</h3>
-                            <p class="edu-institution">Stanford University</p>
-                            <div class="edu-courses" id="stanford-courses">
-                                <ul>
-                                    <li><a href="https://codeinplace.stanford.edu/cip3/certificate/qf9mgq">Code in Place Certificate</a></li>
-                                </ul>
-                            </div>
-                            <button class="edu-toggle" data-target="stanford-courses">
-                                <span>View Certificate</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                        </div>
-                    </div>
+<article class="project-card " data-category="web">
+ <div class="project-image"><img src="Nevents.png" alt="Nevents project preview" loading="lazy" width="700" height="420"></div>
+ <div class="project-content">
+<div class="project-meta">Selected work</div>
+<h3>Nevents</h3>
+<p>Nevents is a web application designed to connect alumni with exciting events and opportunities within the African Leadership University (ALU) community.</p>
+<p class="stack">HTML, CSS, JavaScript</p>
+<div class="project-links"><a href="https://github.com/maxprodigy/ALU_HTML-CSS-Contest_Group-11?tab=readme-ov-file#website-preview" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://eadewusic.github.io/Nevents/" target="_blank" rel="noopener noreferrer">Live Demo</a></div></div></article>
 
-                    <!-- Renew Capital -->
-                    <div class="edu-card">
-                        <div class="edu-icon">
-                            <img src="renew.png" alt="Renew Capital">
-                        </div>
-                        <div class="edu-content">
-                            <h3>CFO-100</h3>
-                            <p class="edu-institution">Renew Capital</p>
-                            <div class="edu-courses" id="renew-courses">
-                                <ul>
-                                    <li><a href="https://mycourse.app/J32DXueMdctCiwgX9">CFO-100 Certificate</a></li>
-                                </ul>
-                            </div>
-                            <button class="edu-toggle" data-target="renew-courses">
-                                <span>View Certificate</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                        </div>
-                    </div>
+<article class="project-card " data-category="web">
+ <div class="project-image"><img src="Healthpass.png" alt="HealthPass project preview" loading="lazy" width="700" height="420"></div>
+ <div class="project-content">
+<div class="project-meta">Selected work</div>
+<h3>HealthPass</h3>
+<p>HealthPass is a state-of-the-art health management platform designed to transform how medical data is accessed and used around the globe.</p>
+<p class="stack">Python, Django</p>
+<div class="project-links"><a href="https://github.com/eobolo/BSE-FOUNDATIONS-PROJECT-HEALTH-PASS" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://olugbeminiyi2000.pythonanywhere.com/healthpass/user_home/" target="_blank" rel="noopener noreferrer">Live Demo</a></div></div></article>
 
-                    <!-- CFTE -->
-                    <div class="edu-card">
-                        <div class="edu-icon">
-                            <img src="CFTE_LOGO.png" alt="CFTE">
-                        </div>
-                        <div class="edu-content">
-                            <h3>Fintech in Africa</h3>
-                            <p class="edu-institution">Centre for Finance, Technology and Entrepreneurship</p>
-                            <div class="edu-courses" id="cfte-courses">
-                                <ul>
-                                    <li><a href="https://www.credential.net/037c6a01-14b0-4e66-bde2-a47b0cea1a41">Fintech in Africa Certificate</a></li>
-                                </ul>
-                            </div>
-                            <button class="edu-toggle" data-target="cfte-courses">
-                                <span>View Certificate</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                        </div>
-                    </div>
+<article class="project-card " data-category="systems">
+ <div class="project-image"><img src="jobify.png" alt="Jobify project preview" loading="lazy" width="700" height="420"></div>
+ <div class="project-content">
+<div class="project-meta">Selected work</div>
+<h3>Jobify</h3>
+<p>JOBIFY is a menu-driven application that aims to connect job seekers in the informal sector with potential employers. The application will provide various features and functionalities to facilitate job searching, job posting, and applicant management.</p>
+<p class="stack">Python, Shell</p>
+<div class="project-links"><a href="https://github.com/Skaveza/Negpod10_Education-Jobcreation-Urbanization_PLD3_SRS" target="_blank" rel="noopener noreferrer">GitHub</a></div></div></article>
 
-                    <!-- Global Fintech -->
-                    <div class="edu-card">
-                        <div class="edu-icon">
-                            <img src="cmu.png" alt="CMU">
-                        </div>
-                        <div class="edu-content">
-                            <h3>Global Fintech Fundamentals</h3>
-                            <p class="edu-institution">Elevandi</p>
-                            <div class="edu-courses" id="fintech-courses">
-                                <ul>
-                                    <li><a href="https://mycourse.app/YMqy5d6M2BAhVWoZ8">Global Fintech Fundamentals</a></li>
-                                </ul>
-                            </div>
-                            <button class="edu-toggle" data-target="fintech-courses">
-                                <span>View Certificate</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                        </div>
-                    </div>
+<article class="project-card " data-category="systems">
+ <div class="project-image"><img src="customised.png" alt="Customised Shell Commands project preview" loading="lazy" width="700" height="420"></div>
+ <div class="project-content">
+<div class="project-meta">Selected work</div>
+<h3>Customised Shell Commands</h3>
+<p>This repository contains functions that automate tasks like pushing to github by just using the c command.</p>
+<p class="stack">Shell</p>
+<div class="project-links"><a href="https://github.com/1772hojaz/customised-commands_for_linux-_enviroments" target="_blank" rel="noopener noreferrer">GitHub</a></div></div></article>
 
-                    <!-- LearnQ -->
-                    <div class="edu-card">
-                        <div class="edu-icon">
-                            <img src="learnQ.png" alt="LearnQ">
-                        </div>
-                        <div class="edu-content">
-                            <h3>Linux Fundamentals</h3>
-                            <p class="edu-institution">LearnQuest</p>
-                            <div class="edu-courses" id="learnq-courses">
-                                <ul>
-                                    <li><a href="https://www.coursera.org/account/accomplishments/certificate/VP3X4DUB7QYQ">Linux Fundamentals Certificate</a></li>
-                                </ul>
-                            </div>
-                            <button class="edu-toggle" data-target="learnq-courses">
-                                <span>View Certificate</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                        </div>
-                    </div>
+<article class="project-card " data-category="mobile">
+ <div class="project-image"><img src="shareplate.jpg" alt="Share Plate Rwanda project preview" loading="lazy" width="700" height="420"></div>
+ <div class="project-content">
+<div class="project-meta">Selected work</div>
+<h3>Share Plate Rwanda</h3>
+<p>This is a platform aimed at addressing food wastage and hunger by fostering a culture of sharing excess food with those in need. Built as a mobile application using Flutter and GetX, its primary goal is to connect people with surplus food (such as individuals, households, restaurants, or grocery stores) with charities, shelters, or individuals who can use it</p>
+<p class="stack">Flutter, GetX, Dart, Firebase, Cloudinary</p>
+<div class="project-links"><a href="https://github.com/1772hojaz/share_plate" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.youtube.com/watch?v=GMSfpazzKlE" target="_blank" rel="noopener noreferrer">Watch demo</a></div></div></article>
 
-                    <!-- Coursera -->
-                    <div class="edu-card">
-                        <div class="edu-icon">
-                            <img src="Coursera-Logo.png" alt="Coursera">
-                        </div>
-                        <div class="edu-content">
-                            <h3>Technical Courses</h3>
-                            <p class="edu-institution">Coursera</p>
-                            <div class="edu-courses" id="coursera-courses">
-                                <ul>
-                                    <li><a href="https://coursera.org/share/0be8599778c309c20eeeab1bc414acc0">Linux Commands and Shell Scripting</a></li>
-                                    <li><a href="https://coursera.org/share/a702a904bcac71cfac12784c9a747f46">Introduction to Software Engineering</a></li>
-                                </ul>
-                            </div>
-                            <button class="edu-toggle" data-target="coursera-courses">
-                                <span>View Courses</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                        </div>
-                    </div>
+<article class="project-card " data-category="systems">
+ <div class="project-image"><img src="rg.png" alt="Student Register project preview" loading="lazy" width="700" height="420"></div>
+ <div class="project-content">
+<div class="project-meta">Selected work</div>
+<h3>Student Register</h3>
+<p>An application that takes users' input and builds the Bachelor of Software Engineering student record. The application will include the following information (student email, age, and student ID). The student record(s) can be deleted or updated using the student ID.</p>
+<p class="stack">Shell</p>
+<div class="project-links"><a href="https://github.com/bakudbilla/Summatives_GCS-2_0323-RW-SOFEN-8120120-8" target="_blank" rel="noopener noreferrer">GitHub</a></div></div></article>
+</div>
+<div class="more-work">
+<p>There’s more in the making.</p><a href="https://github.com/1772hojaz?tab=repositories&amp;sort=updated" target="_blank" rel="noopener noreferrer">Explore all repositories</a></div></section>
 
-                    <!-- LinkedIn Learning -->
-                    <div class="edu-card">
-                        <div class="edu-icon">
-                            <img src="linkedin.webp" alt="LinkedIn Learning">
-                        </div>
-                        <div class="edu-content">
-                            <h3>Professional Development</h3>
-                            <p class="edu-institution">LinkedIn Learning</p>
-                            <div class="edu-courses" id="linkedin-courses">
-                                <ul>
-                                    <li><a href="https://www.linkedin.com/learning/certificates/07b7b3e7be85c1c25387674a6af62d67725a570c25cd3d970ea56e7a0e2d9e3d">Supply Chain Basics</a></li>
-                                    <li><a href="https://www.linkedin.com/learning/certificates/2f32a568e9e1ab63392306edc1ebb9531eb83d7fbbe868ca26fa13572ea5eedc">Budgeting in Real Life</a></li>
-                                    <li><a href="https://www.linkedin.com/learning/certificates/4444813669c1a0c1e5fb2f111b8aae3c0ab0694d2d887702565c6131ab0d315d">Cross-Functional Teams</a></li>
-                                    <li><a href="https://www.linkedin.com/learning/certificates/7f3fe3c1b558f96d353c12286b334da46d839d8ce64428cfadf6e61c3094be59">Accounting Ethics</a></li>
-                                    <li><a href="https://www.linkedin.com/learning/certificates/5a7318351e98acd74022ec665890f053de61758e2e0c3">Learning Git and GitHub</a></li>
-                                </ul>
-                            </div>
-                            <button class="edu-toggle" data-target="linkedin-courses">
-                                <span>View Courses</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                        </div>
-                    </div>
+ <section class="about-section" id="about">
+<div class="wrap about-grid">
+<div>
+<p class="eyebrow">THE PERSON BEHIND THE PROJECTS</p>
+<h2>Grounded in community.<br>Driven by <em>possibility.</em></h2></div>
+<div class="about-copy">
+<p>Growing up on the outskirts of Bindura, Zimbabwe, I saw how inadequate safety equipment affected people working in mining. That experience shaped my interest in software: building tools that respond to real needs.</p>
+<p>My mission is to help informal sector workers access affordable, reliable safety equipment through an AI-powered bulk buying platform. It’s an ambition that continues to guide what I learn and build.</p>
+<details><summary>More about my journey</summary>
+<p>Software engineering gives me a way to work towards that mission while exploring new problems. Across web applications, mobile tools, and systems programming, I learn by turning ideas into working projects.</p></details>
 
-                    <!-- African Impact Challenge -->
-                    <div class="edu-card">
-                        <div class="edu-icon">
-                            <img src="africa (1).png" alt="African Impact Challenge">
-                        </div>
-                        <div class="edu-content">
-                            <h3>African Impact Challenge</h3>
-                            <p class="edu-institution">Pan-African Initiative</p>
-                            <div class="edu-courses" id="africa-courses">
-                                <ul>
-                                    <li><a href="https://www.linkedin.com/feed/update/urn:li:activity:7124160926408138752/">Challenge Completion</a></li>
-                                </ul>
-                            </div>
-                            <button class="edu-toggle" data-target="africa-courses">
-                                <span>View Details</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                        </div>
-                    </div>
+<div class="skill-tags"><span>Python</span><span>JavaScript</span><span>React</span><span>Flutter &amp; Dart</span><span>C</span><span>Shell &amp; Linux</span><span>Git</span></div></div></div></section>
 
-                    <!-- Aspire -->
-                    <div class="edu-card">
-                        <div class="edu-icon">
-                            <img src="apire.webp" alt="Aspire Leaders Program">
-                        </div>
-                        <div class="edu-content">
-                            <h3>Aspire Leadership Program</h3>
-                            <p class="edu-institution">Aspire Institute</p>
-                            <div class="edu-courses" id="aspire-courses">
-                                <ul>
-                                    <li><a href="https://media.licdn.com/dms/image/sync/D4D2DAQG04Z95TwoxgQ/profile-treasury-document-cover-images_480/0/1685567465867">Leadership Certificate</a></li>
-                                </ul>
-                            </div>
-                            <button class="edu-toggle" data-target="aspire-courses">
-                                <span>View Certificate</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+ <section class="education wrap" id="courses">
+<div class="section-heading">
+<div>
+<p class="eyebrow">A WORK IN PROGRESS</p>
+<h2>Always a student<span>.</span></h2></div>
+<p>A foundation in engineering.<br>A wider lens through entrepreneurship.</p></div>
+<div class="education-grid">
+<article class="education-card">
+<div class="education-logo"><img src="AluLogoForAdmissions.png" alt="" loading="lazy" width="150" height="65"></div>
+<h3>Bachelor of Science in Software Engineering</h3>
+<p>African Leadership University</p>
+<p>Programming, databases, web development, and software engineering foundations.</p></article>
 
-        <!-- Projects Section -->
-        <section class="projects" id="projects">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-tag">My Work</span>
-                    <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
-                </div>
-                
-                <div class="projects-grid">
-                    <!-- Share Plate Rwanda -->
-                    <article class="project-card featured">
-                        <div class="project-image">
-                            <img src="shareplate.jpg" alt="Share Plate Rwanda">
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="https://github.com/1772hojaz/share_plate" target="_blank" rel="noopener" class="project-link">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="https://www.youtube.com/watch?v=GMSfpazzKlE" target="_blank" rel="noopener" class="project-link">
-                                        <i class="fas fa-play"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3>Share Plate Rwanda</h3>
-                            <p>A platform addressing food wastage and hunger by connecting people with surplus food to charities and individuals in need.</p>
-                            <div class="project-tech">
-                                <span>Flutter</span>
-                                <span>GetX</span>
-                                <span>Firebase</span>
-                                <span>Cloudinary</span>
-                            </div>
-                        </div>
-                    </article>
+<article class="education-card">
+<div class="education-logo"><img src="renew.png" alt="" loading="lazy" width="150" height="65"></div>
+<h3>CFO-100</h3>
+<details><summary>View learning &amp; credentials</summary>
+<ul><li><a href="https://mycourse.app/J32DXueMdctCiwgX9" target="_blank" rel="noopener noreferrer">CFO-100</a></li></ul>
+</details>
+</article>
 
-                    <!-- Sales Prediction -->
-                    <article class="project-card">
-                        <div class="project-image">
-                            <img src="regression.png" alt="Sales Prediction App">
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="https://github.com/1772hojaz/Final_Alu_regression_model" target="_blank" rel="noopener" class="project-link">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="https://www.youtube.com/watch?v=rcxsdtxKjvc" target="_blank" rel="noopener" class="project-link">
-                                        <i class="fas fa-play"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3>Sales Prediction App</h3>
-                            <p>Android application using a Regression Model to predict product sales based on location and product type.</p>
-                            <div class="project-tech">
-                                <span>Flutter</span>
-                                <span>Dart</span>
-                                <span>Python</span>
-                                <span>ML</span>
-                            </div>
-                        </div>
-                    </article>
+<article class="education-card">
+<div class="education-logo"><img src="QueensLogo_colour.png" alt="" loading="lazy" width="150" height="65"></div>
+<h3>Jim Leech Mastercard Foundation Fellowship on Entrepreneurship</h3>
+<details><summary>View learning &amp; credentials</summary>
+<ul><li><a href="https://credentials.innovationcentre.queensu.ca/7896f9c1-0083-486c-b735-7066519a60c0#gs.68i60b" target="_blank" rel="noopener noreferrer">Explore Entrepreneurship</a></li><li><a href="https://credentials.innovationcentre.queensu.ca/13bf43fc-30fa-4b62-b5dd-6c654688297c#gs.68i8f9" target="_blank" rel="noopener noreferrer">Design Thinking</a></li></ul>
+</details>
+</article>
 
-                    <!-- Nevents -->
-                    <article class="project-card">
-                        <div class="project-image">
-                            <img src="Nevents.png" alt="Nevents">
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="https://github.com/maxprodigy/ALU_HTML-CSS-Contest_Group-11" target="_blank" rel="noopener" class="project-link">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="https://eadewusic.github.io/Nevents/" target="_blank" rel="noopener" class="project-link">
-                                        <i class="fas fa-external-link-alt"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3>Nevents</h3>
-                            <p>Web application connecting alumni with events and opportunities within the ALU community.</p>
-                            <div class="project-tech">
-                                <span>HTML</span>
-                                <span>CSS</span>
-                                <span>JavaScript</span>
-                            </div>
-                        </div>
-                    </article>
+<article class="education-card">
+<div class="education-logo"><img src="CFTE_LOGO.png" alt="" loading="lazy" width="150" height="65"></div>
+<h3>Fintech in Africa</h3>
+<details><summary>View learning &amp; credentials</summary>
+<ul><li><a href="https://www.credential.net/037c6a01-14b0-4e66-bde2-a47b0cea1a41#gs.1gi2rg" target="_blank" rel="noopener noreferrer">Fintech in Africa</a></li></ul>
+</details>
+</article>
 
-                    <!-- HealthPass -->
-                    <article class="project-card">
-                        <div class="project-image">
-                            <img src="Healthpass.png" alt="HealthPass">
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="https://github.com/eobolo/BSE-FOUNDATIONS-PROJECT-HEALTH-PASS" target="_blank" rel="noopener" class="project-link">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="https://olugbeminiyi2000.pythonanywhere.com/healthpass/user_home/" target="_blank" rel="noopener" class="project-link">
-                                        <i class="fas fa-external-link-alt"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3>HealthPass</h3>
-                            <p>A health management platform designed to transform how medical data is accessed globally.</p>
-                            <div class="project-tech">
-                                <span>Python</span>
-                                <span>Django</span>
-                            </div>
-                        </div>
-                    </article>
+<article class="education-card">
+<div class="education-logo"><img src="africa (1).png" alt="" loading="lazy" width="150" height="65"></div>
+<h3>African Impact Challenge</h3>
+<details><summary>View learning &amp; credentials</summary>
+<ul><li><a href="https://www.linkedin.com/feed/update/urn:li:activity:7124160926408138752/" target="_blank" rel="noopener noreferrer">African Impact Challenge</a></li></ul>
+</details>
+</article>
 
-                    <!-- Jobify -->
-                    <article class="project-card">
-                        <div class="project-image">
-                            <img src="jobify.png" alt="Jobify">
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="https://github.com/Skaveza/Negpod10_Education-Jobcreation-Urbanization_PLD3_SRS" target="_blank" rel="noopener" class="project-link">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3>Jobify</h3>
-                            <p>Menu-driven application connecting informal sector job seekers with potential employers.</p>
-                            <div class="project-tech">
-                                <span>Python</span>
-                                <span>Shell</span>
-                            </div>
-                        </div>
-                    </article>
+<article class="education-card">
+<div class="education-logo"><img src="cmu.png" alt="" loading="lazy" width="150" height="65"></div>
+<h3>Global Fin-tech Fundamentals</h3>
+<details><summary>View learning &amp; credentials</summary>
+<ul><li><a href="https://mycourse.app/YMqy5d6M2BAhVWoZ8" target="_blank" rel="noopener noreferrer">Global Fin-tech Fundamentals</a></li></ul>
+</details>
+</article>
 
-                    <!-- Custom Shell Commands -->
-                    <article class="project-card">
-                        <div class="project-image">
-                            <img src="customised.png" alt="Custom Shell Commands">
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="https://github.com/1772hojaz/customised-commands_for_linux-_enviroments" target="_blank" rel="noopener" class="project-link">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3>Custom Shell Commands</h3>
-                            <p>Functions that automate tasks like pushing to GitHub with simplified commands.</p>
-                            <div class="project-tech">
-                                <span>Shell</span>
-                                <span>Bash</span>
-                            </div>
-                        </div>
-                    </article>
+<article class="education-card">
+<div class="education-logo"><img src="learnQ.png" alt="" loading="lazy" width="150" height="65"></div>
+<h3>Linux Fundamentals</h3>
+<details><summary>View learning &amp; credentials</summary>
+<ul><li><a href="https://www.coursera.org/account/accomplishments/certificate/VP3X4DUB7QYQ" target="_blank" rel="noopener noreferrer">Linux Fundamentals</a></li></ul>
+</details>
+</article>
 
-                    <!-- Student Register -->
-                    <article class="project-card">
-                        <div class="project-image">
-                            <img src="rg.png" alt="Student Register">
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="https://github.com/bakudbilla/Summatives_GCS-2_0323-RW-SOFEN-8120120-8" target="_blank" rel="noopener" class="project-link">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3>Student Register</h3>
-                            <p>Application for managing BSE student records with CRUD operations using student ID.</p>
-                            <div class="project-tech">
-                                <span>Shell</span>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
+<article class="education-card">
+<div class="education-logo"><img src="Stanford-1.webp" alt="" loading="lazy" width="150" height="65"></div>
+<h3>Code in Place</h3>
+<details><summary>View learning &amp; credentials</summary>
+<ul><li><a href="https://codeinplace.stanford.edu/cip3/certificate/qf9mgq" target="_blank" rel="noopener noreferrer">Code in place</a></li></ul>
+</details>
+</article>
 
-        <!-- GitHub Repos Section -->
-        <section class="github-repos" id="github">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-tag">Live from GitHub</span>
-                    <h2 class="section-title">My <span class="highlight">Repositories</span></h2>
-                    <p class="section-subtitle">Automatically synced from <a href="https://github.com/1772hojaz" target="_blank" rel="noopener">github.com/1772hojaz</a></p>
-                </div>
-                
-                <div class="github-stats" id="github-stats">
-                    <div class="stat-card">
-                        <i class="fas fa-code-branch"></i>
-                        <span class="stat-number" id="repo-count">--</span>
-                        <span class="stat-label">Public Repos</span>
-                    </div>
-                    <div class="stat-card">
-                        <i class="fas fa-users"></i>
-                        <span class="stat-number" id="follower-count">--</span>
-                        <span class="stat-label">Followers</span>
-                    </div>
-                    <div class="stat-card">
-                        <i class="fas fa-star"></i>
-                        <span class="stat-number" id="star-count">--</span>
-                        <span class="stat-label">Total Stars</span>
-                    </div>
-                </div>
+<article class="education-card">
+<div class="education-logo"><img src="Coursera-Logo.png" alt="" loading="lazy" width="150" height="65"></div>
+<h3>Short Courses</h3>
+<details><summary>View learning &amp; credentials</summary>
+<ul><li><a href="https://coursera.org/share/0be8599778c309c20eeeab1bc414acc0" target="_blank" rel="noopener noreferrer">Linux Commands and Shell Scripting</a></li><li><a href="https://coursera.org/share/a702a904bcac71cfac12784c9a747f46" target="_blank" rel="noopener noreferrer">Introduction to Software Engineering</a></li></ul>
+</details>
+</article>
 
-                <div class="repos-filter">
-                    <button class="filter-btn active" data-filter="all">All</button>
-                    <button class="filter-btn" data-filter="Python">Python</button>
-                    <button class="filter-btn" data-filter="JavaScript">JavaScript</button>
-                    <button class="filter-btn" data-filter="Shell">Shell</button>
-                    <button class="filter-btn" data-filter="Dart">Dart</button>
-                </div>
-                
-                <div class="repos-grid" id="repos-grid">
-                    <div class="repos-loading">
-                        <div class="loading-spinner"></div>
-                        <p>Loading repositories...</p>
-                    </div>
-                </div>
+<article class="education-card">
+<div class="education-logo"><img src="linkedin.webp" alt="" loading="lazy" width="150" height="65"></div>
+<h3>Short Courses</h3>
+<details><summary>View learning &amp; credentials</summary>
+<ul><li><a href="https://www.linkedin.com/learning/certificates/07b7b3e7be85c1c25387674a6af62d67725a570c25cd3d970ea56e7a0e2d9e3d" target="_blank" rel="noopener noreferrer">Supply Chain Basics For Everyone</a></li><li><a href="https://www.linkedin.com/learning/certificates/2f32a568e9e1ab63392306edc1ebb9531eb83d7fbbe868ca26fa13572ea5eedc?trk=share_certificate" target="_blank" rel="noopener noreferrer">Budgeting in Real Life</a></li><li><a href="https://lnkd.in/dQrg4eTB" target="_blank" rel="noopener noreferrer">Business Tax Foundations</a></li><li><a href="https://www.linkedin.com/learning/certificates/7f3fe3c1b558f96d353c12286b334da46d839d8ce64428cfadf6e61c3094be59" target="_blank" rel="noopener noreferrer">Accounting Ethics</a></li><li><a href="https://www.linkedin.com/learning/certificates/5a7318351e98acd74022ec665890f053de61758e2e0c3" target="_blank" rel="noopener noreferrer">Learning Git and GitHub</a></li><li><a href="https://lnkd.in/dbWuRBzG" target="_blank" rel="noopener noreferrer">Business Plan</a></li><li><a href="https://lnkd.in/drn8eUKJ" target="_blank" rel="noopener noreferrer">Impactful Leadership/button&gt;</a></li></ul>
+</details>
+</article>
 
-                <div class="github-cta">
-                    <a href="https://github.com/1772hojaz" target="_blank" rel="noopener" class="btn btn-secondary">
-                        <i class="fab fa-github"></i>
-                        <span>View All on GitHub</span>
-                    </a>
-                </div>
-            </div>
-        </section>
+<article class="education-card">
+<div class="education-logo"><img src="apire.webp" alt="" loading="lazy" width="150" height="65"></div>
+<h3>Aspire leadership program</h3>
+<details><summary>View learning &amp; credentials</summary>
+<ul><li><a href="https://media.licdn.com/dms/image/sync/D4D2DAQG04Z95TwoxgQ/profile-treasury-document-cover-images_480/0/1685567465867?e=1715824800&amp;v=beta&amp;t=_DbYvUuUkNaT27vFJ7Pa6IeaKqHqj4mMhDheAzUZI8o" target="_blank" rel="noopener noreferrer">Aspire leadership program</a></li></ul>
+</details>
+</article>
+</div></section>
 
-        <!-- Contact Section -->
-        <section class="contact" id="contact">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-tag">Get in Touch</span>
-                    <h2 class="section-title">Contact <span class="highlight">Me</span></h2>
-                </div>
-                
-                <div class="contact-wrapper">
-                    <div class="contact-info">
-                        <h3>Let's work together</h3>
-                        <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
-                        
-                        <div class="contact-details">
-                            <div class="contact-item">
-                                <i class="fas fa-envelope"></i>
-                                <span>humphrey.nyahoja@gmail.com</span>
-                            </div>
-                            <div class="contact-item">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <span>Kigali, Rwanda</span>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-socials">
-                            <a href="https://www.linkedin.com/in/humphrey-nyahoja-ab9a5a1b5/" target="_blank" rel="noopener">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="https://github.com/1772hojaz" target="_blank" rel="noopener">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="https://twitter.com/H_Nyahoja_" target="_blank" rel="noopener">
-                                <i class="fab fa-x-twitter"></i>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <form class="contact-form" id="contact-form">
-                        <div class="form-row">
-                            <div class="form-group">
-                                <input type="text" name="user_name" id="user_name" required>
-                                <label for="user_name">Full Name</label>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" name="user_email" id="user_email" required>
-                                <label for="user_email">Email Address</label>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <input type="tel" name="user_number" id="user_number">
-                                <label for="user_number">Phone Number</label>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="user_email_subject" id="user_email_subject" required>
-                                <label for="user_email_subject">Subject</label>
-                            </div>
-                        </div>
-                        <div class="form-group full-width">
-                            <textarea name="message" id="message" rows="5" required></textarea>
-                            <label for="message">Your Message</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
-                            <span>Send Message</span>
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>
+ <section class="contact-section" id="contact">
+<div class="wrap contact-inner">
+<p class="eyebrow">LET’S MAKE SOMETHING USEFUL</p>
+<h2>Have a problem<br>worth <em>solving?</em></h2>
+<p>I’d love to hear about your idea, a collaboration,<br>or an opportunity to build together.</p><a class="button primary" href="mailto:humphrey.nyahoja@gmail.com">Get in touch</a><a class="email-link" href="mailto:humphrey.nyahoja@gmail.com">humphrey.nyahoja@gmail.com</a></div></section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <a href="#home" class="footer-logo">HN<span>.</span></a>
-                    <p>Building solutions that matter.</p>
-                </div>
-                
-                <div class="footer-links">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#education">Education</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#github">GitHub</a>
-                    <a href="#contact">Contact</a>
-                </div>
-                
-                <div class="footer-socials">
-                    <a href="https://www.linkedin.com/in/humphrey-nyahoja-ab9a5a1b5/" target="_blank" rel="noopener">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="https://github.com/1772hojaz" target="_blank" rel="noopener">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://twitter.com/H_Nyahoja_" target="_blank" rel="noopener">
-                        <i class="fab fa-x-twitter"></i>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2025 Humphrey Nyahoja. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+ </main>
 
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script>emailjs.init('92ZID-eym5M7QyCnl')</script>
-    <script src="index.js"></script>
-</body>
-</html>
+<footer class="wrap site-footer">
+<p>&copy; <span id="year">2026</span> Humphrey Nyahoja</p>
+<div><a href="https://github.com/1772hojaz" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/humphrey-nyahoja-ab9a5a1b5/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="#me">Back to top</a></div></footer>
+
+</body></html>
