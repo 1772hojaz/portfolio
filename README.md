@@ -26,6 +26,7 @@ font fallbacks are provided.
 Reviewed on November 23, 2026 against the public GitHub repository list and
 project READMEs. Recent featured projects:
 
+- [Dasho](https://web.humphreynyahoja.me/) — food delivery with customer and rider apps, a restaurant portal, and a shared Rust API. Added November 28, 2026 from the local `food_backend` project documentation; [repository](https://github.com/1772hojaz/food_backend).
 - [Answered](https://github.com/1772hojaz/answered) — student revision resources.
 - [Agentic Shop](https://github.com/1772hojaz/agentic_shop) — WhatsApp shopping and administration.
 - [Hexa-mono](https://github.com/1772hojaz/Hexa-mono) — Airbnb clone project.
@@ -37,3 +38,5 @@ Public forks and practice repositories are not presented as original featured pr
 The four recent project covers in `assets/projects/` are AI-generated thematic
 illustrations, not application screenshots. They are stored locally as optimized
 WebP images and loaded lazily.
+Dasho reuses the AI-generated meal artwork from its landing page, also stored
+locally as WebP; it is illustrative rather than an application screenshot.
