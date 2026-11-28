@@ -38,5 +38,5 @@ Public forks and practice repositories are not presented as original featured pr
 The four recent project covers in `assets/projects/` are AI-generated thematic
 illustrations, not application screenshots. They are stored locally as optimized
 WebP images and loaded lazily.
-Dasho reuses the AI-generated meal artwork from its landing page, also stored
-locally as WebP; it is illustrative rather than an application screenshot.
+Dasho uses its actual Android launch screenshot. The card centers the logo on
+white, with the phone status and navigation bars outside the visible area.
